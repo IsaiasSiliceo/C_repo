@@ -3,6 +3,12 @@
 Repositorio de C estándar con ejercicios básicos de programación
 
 
+Para compilar en una terminal de GNU/Linux. Utilizamos el segundo caso cuando incluye la biblioteca <math.h> y el último comando para ejecutar el programa.
+```
+gcc -o programa programa.c
+gcc -o programa programa.c -lm 
+./programa
+```
 ## perfecto.c
 Calcula los números perfectos entre 1 y 10,000. Para que un número sea perfecto debe cumplir con la condición de que la suma de sus factores sean igual al número que la función perfecto() toma como argumento.
 
