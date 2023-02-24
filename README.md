@@ -20,3 +20,9 @@ Muestra cómo imprimir números "aleatorios" en un intervalo comprendido entre a
 En general, si n es un número aleatorio, este se calcula como n =  a + (rand() % b);
 También se incluye la función srand() de la biblioteca <stdlib.h> para hacer uso de una semilla.
 Una misma semilla puede ser útil si se requiere generar un mismo número aleatorio.
+
+## primo.c
+Programa para calcular los números primos entre 1 y limite (Se puede incrementar el límite hasta donde lo permita el rango del tipo de dato "int")
+Si se requiere un número más grande que 32,767, se debe cambiar tanto el tipo de dato como la función isPrime() a unsigned int, long o unsigned long
+a) Imprime números primos
+b) Cuenta los números primos
